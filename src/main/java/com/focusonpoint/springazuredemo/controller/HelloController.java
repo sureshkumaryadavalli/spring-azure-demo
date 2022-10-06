@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Congrats Spring Application is deployed to Azure";
+        return "Congratulation SpringBoot Application is deployed to Azure!!!";
     }
 }
